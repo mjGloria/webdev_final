@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(239, 200, 121);
+    font-family:cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;     /* Vertical centering */
+}
+
+p {
+    font-size: 25px;
+    color:rgb(182, 83, 22);
+    width: 1000px;
+    text-align: center;
+}
+
+img {
+    width: 600px;
+    border-radius: 20px;
+    border-style:outset;
+    border-width: 20px;
+    border-color:rgb(78, 74, 70);
+}
+
+a {
+    font-size: 30px;
+    border-style: outset;
+    border-color: rgb(62, 54, 215);
+    background-color: rgb(200, 220, 255);
+    color:rgb(25, 83, 165);
+    border-radius: 15px;
+    border-width: 10px;
+    padding: 10px;
+}
+
+a:hover {
+    font-size:33px;
+}
+
+a:active {
+    background-color: whitesmoke;
+    font-size: 35px;
+}
+
+
+
+
+
+
+input {
+    font-family: cursive;
+    font-size: 40px;
+    border-style: outset;
+    border-color: rgb(215, 129, 54);
+    background-color: rgb(255, 227, 175);
+    color:rgb(25, 69, 165);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    font-family: cursive;
+    font-size: 20px;
+    border-style: outset;
+    border-color: rgb(215, 129, 54);
+    background-color: rgb(255, 227, 175);
+    color:rgb(165, 69, 25);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button:hover{
+    font-size:22px;
+}
+
+button:active {
+    background-color:whitesmoke;
+    color: gold;
+    font-size: 25px;
+}
+
+#image-disclaimer {
+    font-size: 15px;
+    color:rgb(255, 243, 219);
+}
+
+#artifact {
+    font-size:15px;
+}
+
+#artifact:hover {
+    font-size:17px;
+}
+
+#artifact:active {
+    background-color: whitesmoke;
+}
+
+#help{
+    color: green;
+}
+
+#dragon{
+    color:rgb(229, 30, 30);
+}
